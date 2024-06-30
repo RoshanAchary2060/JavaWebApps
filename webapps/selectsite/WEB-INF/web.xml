@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-class>RedirectSiteServlet</servlet-class>
+        <servlet-name>RedirectSiteServlet</servlet-name>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RedirectSiteServlet</servlet-name>
+        <url-pattern>/RedirectSiteServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
