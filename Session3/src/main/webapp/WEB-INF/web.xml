@@ -1,0 +1,5 @@
+<web-app>
+	<listener>
+		<listener-class>listener.UserCount</listener-class>
+	</listener>
+</web-app>
