@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<taglib xmlns="https://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="https://www.w3.org/2002/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+	version="2.0">
+	<jsp-version>2.1</jsp-version>
+	<tlib-version>1.0</tlib-version>
+	<short-name>Date Printing</short-name>
+	<description>Simple Tag demo</description>
+	<tag>
+		<name>showdate</name>
+		<tag-class>com.rosan.customtags.MyDateTag </tag-class>
+		<body-content>empty</body-content>
+	</tag>
+
+</taglib>	
