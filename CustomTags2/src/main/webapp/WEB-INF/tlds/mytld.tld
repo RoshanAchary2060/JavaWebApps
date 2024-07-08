@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<taglib xmlns="https://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="https://www.w3.org/2002/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+	version="2.0">
+	<jsp-version>2.1</jsp-version>
+	<tlib-version>1.0</tlib-version>
+	<short-name>Table</short-name>
+	<description>Generate Table</description>
+	<tag>
+		<name>createtable</name>
+		<tag-class>simpletags.RowColumn </tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>rows</name>
+			<required>false</required>
+			<rtexpravalue>false</rtexpravalue>
+		</attribute>
+		<attribute>
+			<name>columns</name>
+			<required>false</required>
+			<rtexpravalue>false</rtexpravalue>
+<!-- 			rtexprvalue means rt is run time
+				expr is expression 
+				rtexprvalue true means data is dynamic -->
+		</attribute>
+	</tag>
+
+</taglib>	
